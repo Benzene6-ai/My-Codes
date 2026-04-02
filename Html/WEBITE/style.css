@@ -1,0 +1,181 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333333;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #0057D9;
+}
+
+/* Section 3: Why Choose Us */
+#why-choose-us {
+  padding: 20px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.why-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  color: #0057D9; /* Primary blue */
+  margin-bottom: 15px;
+}
+
+.why-card h3 {
+  color: #0057D9;
+  margin: 10px 0;
+}
+
+.why-card p {
+  color: #666;
+  font-size: 0.95em;
+}
+
+/* Section 4: Our Majors */
+#our-majors {
+  padding: 20px;
+  background: #fff;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 20px;
+}
+
+.alumni-card {
+  scroll-snap-align: start;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  min-width: 280px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.alumni-img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.alumni-card h3 a {
+  color: #0057D9;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.alumni-school {
+  font-size: 0.9em;
+  color: #888;
+  margin: 4px 0;
+}
+
+blockquote {
+  font-style: italic;
+  color: #444;
+  margin-top: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .carousel {
+    padding: 0 10px;
+  }
+
+  .why-card, .alumni-card {
+    padding: 15px;
+  }
+}
+.profile-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-card h1 {
+  color: #0057D9;
+  margin: 10px 0 5px;
+}
+
+.profile-card h3 {
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.profile-bio {
+  color: #444;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #0057D9;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  stroke-width: 2;
+  margin-bottom: 0.5rem;
+}
+
+.icon-blue {
+  stroke: #0b81afc9;
+}
+.icon-purple {
+  stroke: #7658fada;
+}
+.icon-red {
+  stroke: #eb0c229c;
+}
+.icon-green {
+  stroke: #23dd71d2;
+}

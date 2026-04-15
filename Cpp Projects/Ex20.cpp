@@ -5,6 +5,7 @@
 #include <cstdlib>
 
 using namespace std;
+//SNAKEGAME
 
 class Dimensions {
 public:
